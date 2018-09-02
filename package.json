@@ -1,19 +1,18 @@
 {
-  "name": "markdown-it-named-headings",
+  "name": "@gerhobbelt/markdown-it-named-headings",
   "description": "Add IDs to heading elements in markdown-it",
-  "version": "1.1.0",
+  "version": "1.1.0-1",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "bugs": {
     "url": "https://github.com/rstacruz/markdown-it-named-headings/issues"
   },
-  "dependencies": {
-    "lodash.kebabcase": "4.0.1",
-    "unidecode": "^0.1.8"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "ava": "0.14.0",
-    "chokidar": "^1.4.3",
-    "markdown-it": "6.0.1"
+    "@gerhobbelt/markdown-it": "8.4.2-24",
+    "ava": "0.25.0",
+    "chokidar": "2.0.4",
+    "lodash.kebabcase": "4.1.1",
+    "unidecode": "0.1.8"
   },
   "homepage": "https://github.com/rstacruz/markdown-it-named-headings#readme",
   "keywords": [
@@ -29,6 +28,7 @@
   },
   "scripts": {
     "test": "ava",
-    "tdd": "ava --watch"
+    "tdd": "ava --watch",
+    "pub": "npm publish --access public"
   }
 }

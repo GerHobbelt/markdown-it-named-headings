@@ -14,20 +14,20 @@ md.render('# Example Header')
 ## Install
 
 ```
-npm install --save markdown-it-named-headings
+npm install --save @gerhobbelt/markdown-it-named-headings
 ```
 
 ## Usage
 
 ```js
-var md = require('markdown-it')()
-  .use(require('markdown-it-named-headings'))
+var md = require('@gerhobbelt/markdown-it')()
+  .use(require('@gerhobbelt/markdown-it-named-headings'))
 
 md.render('# hello')
 ```
 
 [markdown-it]: https://github.com/markdown-it/markdown-it
-[markdown-it-named-headers]: https://www.npmjs.com/package/markdown-it-named-headers
+[markdown-it-named-headers]: https://www.npmjs.com/package/%40gerhobbelt%2Fmarkdown-it-named-headers
 
 ## Prior art
 

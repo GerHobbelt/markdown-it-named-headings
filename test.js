@@ -1,7 +1,7 @@
 var namedHeadings = require('./index')
 var test = require('ava')
 
-var md = require('markdown-it')()
+var md = require('@gerhobbelt/markdown-it')()
   .use(namedHeadings, {})
 
 test('add ids', t => {
