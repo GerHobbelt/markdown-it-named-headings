@@ -11,5 +11,5 @@ describe('markdown-it-named-headings', function () {
   const md = Md({ linkify: true })
               .use(plugin);
 
-  generate(path.join(__dirname, 'fixtures/named-headings.txt'), md);
+  generate(path.join(__dirname, 'fixtures/named-headings.txt'), null, md, null, { desc: 'named-headings' });
 });
