@@ -1,4 +1,4 @@
-/*! markdown-it-named-headings 1.1.0-3 https://github.com//GerHobbelt/markdown-it-named-headings @license MIT */
+/*! markdown-it-named-headings 1.1.0-4 https://github.com//GerHobbelt/markdown-it-named-headings @license MIT */
 
 (function (factory) {
 	typeof define === 'function' && define.amd ? define(factory) :
