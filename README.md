@@ -6,7 +6,7 @@ A plugin for [markdown-it][] to add `id` attributes to *h1...h6* elements.
 
 ```js
 md.render('# Example Header') 
-=> '<h1 id="example-header">Example</h1>'
+=> '<h1 id="example-header">Example Header</h1>'
 ```
 
 [![Status](https://travis-ci.org/rstacruz/markdown-it-named-headings.svg?branch=master)](https://travis-ci.org/rstacruz/markdown-it-named-headings "See test builds")

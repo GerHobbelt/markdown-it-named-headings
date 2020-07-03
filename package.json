@@ -1,34 +1,49 @@
 {
   "name": "@gerhobbelt/markdown-it-named-headings",
-  "description": "Add IDs to heading elements in markdown-it",
   "version": "1.1.0-1",
-  "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
-  "bugs": {
-    "url": "https://github.com/rstacruz/markdown-it-named-headings/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@gerhobbelt/markdown-it": "8.4.2-24",
-    "ava": "0.25.0",
-    "chokidar": "2.0.4",
-    "lodash.kebabcase": "4.1.1",
-    "unidecode": "0.1.8"
-  },
-  "homepage": "https://github.com/rstacruz/markdown-it-named-headings#readme",
+  "description": "Add IDs to heading elements in markdown-it",
   "keywords": [
     "headings",
     "markdown",
     "markdown-it"
   ],
+  "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
+  "repository": "rstacruz/markdown-it-named-headings",
   "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rstacruz/markdown-it-named-headings.git"
+  "source": "index.js",
+  "main": "dist/markdownItNamedHeadings.js",
+  "module": "dist/markdownItNamedHeadings.mjs",
+  "engines": {
+    "node": ">=10"
   },
   "scripts": {
-    "test": "ava",
-    "tdd": "ava --watch",
+    "build": "make",
+    "test": "make test",
+    "todo": "make todo",
+    "clean": "make clean",
+    "superclean": "make superclean",
+    "doc": "make doc",
+    "lint": "make lint",
+    "lintfix": "make lintfix",
+    "cov": "make report-coverage",
     "pub": "npm publish --access public"
-  }
+  },
+  "devDependencies": {
+    "@gerhobbelt/markdown-it": "11.0.1-41",
+    "@gerhobbelt/markdown-it-testgen": "0.1.6-8",
+    "@gerhobbelt/prepend-header": "1.0.8-3",
+    "chai": "^4.2.0",
+    "cross-env": "7.0.2",
+    "eslint": "7.3.1",
+    "lodash.kebabcase": "4.1.1",
+    "microbundle": "0.12.2",
+    "mocha": "8.0.1",
+    "nyc": "15.1.0",
+    "unidecode": "0.1.8"
+  },
+  "reporter": [
+    "lcov",
+    "text",
+    "text-summary"
+  ]
 }
