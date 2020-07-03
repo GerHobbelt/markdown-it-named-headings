@@ -1,4 +1,4 @@
-/*! markdown-it-named-headings 1.1.0-2 https://github.com//GerHobbelt/markdown-it-named-headings @license MIT */
+/*! markdown-it-named-headings 1.1.0-3 https://github.com//GerHobbelt/markdown-it-named-headings @license MIT */
 
 'use strict';
 
