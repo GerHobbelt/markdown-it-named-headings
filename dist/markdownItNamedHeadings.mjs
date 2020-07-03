@@ -1,4 +1,4 @@
-/*! markdown-it-named-headings 1.1.0-1 https://github.com//GerHobbelt/markdown-it-named-headings @license MIT */
+/*! markdown-it-named-headings 1.1.0-2 https://github.com//GerHobbelt/markdown-it-named-headings @license MIT */
 
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
